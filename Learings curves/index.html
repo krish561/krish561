@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+    <style>
+      h1 {
+        font-size: 4rem;
+        text-align: center;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        color: rgb(249, 248, 247);
+        background: #202731;
+        overflow-x: hidden;
+      }
+      section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 300px;
+        padding: 100px 20vw;
+      }
+      .blue {
+        background: #3c31dd;
+      }
+      .red {
+        background: #dd3f31;
+      }
+      .pink {
+        background: #ff0066;
+      }
+      .dark {
+        background: #0f0f10;
+      }
+
+      .curve {
+        position: absolute;
+        height: 225px;
+        width: 100%;
+        bottom: 0;
+      }
+      .curve::before {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        background-color: #25252e;
+        transform: translate(85%, 60%);
+      }
+      .curve::after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        background-color: #3c31dd;
+        transform: translate(-4%, 40%);
+        z-index: -1;
+      }
+
+      .bubble::after {
+        content: "";
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+        position: absolute;
+        bottom: 0;
+        height: 85%;
+        width: 100%;
+        background-color: #0f0f10;
+        z-index: -1;
+      }
+      .wave {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+      }
+
+      .wave svg {
+        position: relative;
+        display: block;
+        width: calc(135% + 1.3px);
+        height: 289px;
+      }
+
+      .wave .shape-fill {
+        fill: #0f0f10;
+      }
+
+      .spacer {
+        aspect-ratio: 960/300;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .layer1 {
+        background-image: url("./layered-waves-haikei.svg");
+      }
+
+      .layer2 {
+        background-image: url("./layer2.svg");
+      }
+      .flip {
+        transform: rotate(180deg);
+      }
+
+      .blob-motion {
+        position: absolute;
+        transform: translateY(-20%);
+        z-index: 0;
+      }
+      .blob-content {
+        z-index: 1;
+      }
+
+      .blobs {
+        width: 100%;
+        background: url("./blobs.svg") no-repeat bottom / cover;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="blue">
+      <h1>Tedious curve</h1>
+      <p>This curve was done only using CSS.</p>
+      <div class="curve"></div>
+    </section>
+    <section>
+      <h1>Nice Curves</h1>
+      <p>Do not stop and just keep on making them curves.</p>
+    </section>
+    <section class="bubble">
+      <h1>Bubble Curves</h1>
+      <p>Easier to implement but not really appealing to me.</p>
+    </section>
+    <section class="dark">
+      <h1>Nice Curves</h1>
+      <p>Keep it Up.</p>
+    </section>
+    <section class="red">
+      <h1>Svg Curves</h1>
+      <p>
+        This is the best and the easiest way to make a curve. This was done
+        using Shape Divider.
+      </p>
+      <div class="wave">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <div class="spacer layer1"></div>
+
+    <section>
+      <h1>Nice Curve</h1>
+      <p>you are doing great.</p>
+    </section>
+    <div class="spacer layer2 flip"></div>
+    <section class="pink">
+      <div class="blob-content">
+        <h1>Haikei Curve</h1>
+        <p>
+          Possible using Haikei and Kute. haikei was used to make the layers and
+          blob in the middle whereas Kute was to animate the 2 blobs.
+        </p>
+      </div>
+
+      <svg
+        class="blob-motion"
+        id="visual"
+        viewBox="0 0 960 300"
+        width="960"
+        height="300"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(492.602832315431 142.22727384402992)">
+          <path
+            id="blob1"
+            d="M74.3 -72.3C91.2 -57.5 96.1 -28.8 95.3 -0.8C94.4 27.1 87.9 54.2 71 73.9C54.2 93.5 27.1 105.8 4.7 101.1C-17.7 96.3 -35.4 74.7 -60.4 55C-85.4 35.4 -117.7 17.7 -120.4 -2.7C-123.1 -23.1 -96.2 -46.2 -71.2 -61C-46.2 -75.9 -23.1 -82.4 2.8 -85.3C28.8 -88.1 57.5 -87.2 74.3 -72.3"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g
+          transform="translate(486.7680670790455 138.7531865532127)"
+          style="visibility: hidden"
+        >
+          <path
+            id="blob2"
+            d="M50.6 -48.8C65 -36.3 75.5 -18.1 83.3 7.8C91 33.7 96.1 67.4 81.7 80.9C67.4 94.4 33.7 87.7 -0.8 88.5C-35.4 89.4 -70.7 97.7 -88.7 84.2C-106.7 70.7 -107.4 35.4 -99.8 7.5C-92.3 -20.3 -76.5 -40.5 -58.5 -53C-40.5 -65.5 -20.3 -70.3 -1.1 -69.2C18.1 -68.2 36.3 -61.3 50.6 -48.8"
+            fill="#BB004B"
+          ></path>
+        </g>
+      </svg>
+      <script>
+        const tween = KUTE.fromTo(
+          "#blob1",
+          { path: "#blob1" },
+          { path: "#blob2" },
+          { repeat: 999, duration: 3000, yoyo: true }
+        );
+        tween.start();
+      </script>
+    </section>
+    <div class="spacer layer2"></div>
+    <!-- <section class="blobs">
+      <h1>Nice Curves!</h1>
+      <p>
+        A website is like a road. The more curves it has the more interesting it
+        is.
+      </p>
+    </section> -->
+  </body>
+</html>
