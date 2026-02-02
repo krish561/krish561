@@ -16,9 +16,9 @@
 ### 🚧 **Current Status: ContextQA**
 > *Working on a hybrid RAG system that uses a "Plant Metaphor" to visualize data lineage.*
 
+![beetlejuice-just-hanging-around](https://github.com/user-attachments/assets/d6dd946d-f626-48c3-b424-3bf088e60517)
+
 <div align="center">
-  <img src="https://media.tenor.com/FmG4yUqRmqsAAAAC/beetlejuice-just-hanging-around.gif" width="300" />
-  <br />
   <i>Me trying to figure out Reciprocal Rank Fusion algorithms...</i>
 </div>
 
@@ -30,6 +30,7 @@
 
 ### 🚀 **Recently Completed: J-Container**
 > *A rootless container runtime built from scratch in C & Java.*
+
 | ⚡ Benchmark | **J-Container** | Docker | Podman |
 | :--- | :--- | :--- | :--- |
 | **Startup Time** | **138ms** 🚀 | ~754ms | ~1.01s |
@@ -41,9 +42,8 @@
 ---
 
 ### 💼 **Work Experience**
-<div align="center">
-  <img src="https://media.tenor.com/IyXFqC0VzRIAAAAC/unemployed-final-boss-ares.gif" width="300" />
-</div>
+![steven-he-smells-like](https://github.com/user-attachments/assets/2270367b-389c-455a-840d-1b679fbde0b3)
+
 
 * **Current Role:** *Full-Time Open Source Engineer* (A.K.A. Unemployed & Coding)
 * **Goal:** Building production-grade distributed systems until someone pays me to do it.
@@ -54,9 +54,9 @@
 **Master of Science in Computer Science**
 [cite_start]*Osmania University (2022 - 2024)* [cite: 9]
 
-<div align="center">
-  <img src="https://media.tenor.com/hYy4gqGv0FEAAAAC/its-the-biggest-piece-of-dogshit-google-maps.gif" width="300" />
-</div>
+**My honest feelings about it-**
+![its-the-biggest-piece-of-dogshit](https://github.com/user-attachments/assets/5b63b35b-13ec-4903-9179-7baf6193561b)
+
 
 * [cite_start]**GPA:** 7.03 [cite: 9]
 * **The Reality:** Learned more breaking Linux kernels in my bedroom than in the classroom.
