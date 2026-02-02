@@ -36,8 +36,8 @@
 | **Startup Time** | **138ms** 🚀 | ~754ms | ~1.01s |
 | **Architecture** | **Java + C (Native)** | Go (Client-Server) | Go (Daemonless) |
 
-* [cite_start]**The Flex:** I beat Docker's startup time by 5x by stripping away OCI overhead and talking directly to Linux Namespaces (`CLONE_NEWUSER`)[cite: 18, 19].
-* [cite_start]**Tech:** C (Syscalls), Java (Orchestrator), Linux Kernel[cite: 18].
+* **The Flex:** I beat Docker's startup time by 5x by stripping away OCI overhead and talking directly to Linux Namespaces (`CLONE_NEWUSER`).
+* **Tech:** C (Syscalls), Java (Orchestrator), Linux Kernel.
 
 ---
 
@@ -52,13 +52,14 @@
 
 ### 🎓 **Education**
 **Master of Science in Computer Science**
-[cite_start]*Osmania University (2022 - 2024)* [cite: 9]
+*Osmania University (2022 - 2024)* 
 
 **My honest feelings about it-**
+
 ![its-the-biggest-piece-of-dogshit](https://github.com/user-attachments/assets/5b63b35b-13ec-4903-9179-7baf6193561b)
 
 
-* [cite_start]**GPA:** 7.03 [cite: 9]
+* **GPA:** 7.03 
 * **The Reality:** Learned more breaking Linux kernels in my bedroom than in the classroom.
 
 ---
@@ -68,9 +69,9 @@
   <img src="https://skillicons.dev/icons?i=java,c,spring,postgres,docker,linux,git,vim&perline=8" />
 </p>
 
-* [cite_start]**Languages:** Java, C, Python [cite: 12]
-* [cite_start]**Backend:** Spring Boot, Hibernate, REST APIs [cite: 13]
-* [cite_start]**Systems:** Linux Internals, Docker, GCC [cite: 15]
+* **Languages:** Java, C, Python 
+* **Backend:** Spring Boot, Hibernate, REST APIs 
+* **Systems:** Linux Internals, Docker, GCC 
 
 ---
 
