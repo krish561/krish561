@@ -16,8 +16,12 @@
 ### 🚧 **Current Status: ContextQA**
 > *Working on a hybrid RAG system that uses a "Plant Metaphor" to visualize data lineage.*
 
-![beetlejuice-just-hanging-around](https://github.com/user-attachments/assets/d6dd946d-f626-48c3-b424-3bf088e60517)
-
+<div align="right">
+<img src="https://github.com/user-attachments/assets/d6dd946d-f626-48c3-b424-3bf088e60517" 
+     alt="beetlejuice-just-hanging-around" 
+     width="300" 
+     height="200">
+</div>
 <div align="center">
   <i>Me trying to figure out Reciprocal Rank Fusion algorithms...</i>
 </div>
