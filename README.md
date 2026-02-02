@@ -1,169 +1,151 @@
-<div align="center">
-
-<table>
-  <tr>
-    <td align="left" width="120">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="96" alt="wave-gif" />
-    </td>
-    <td align="left">
-      <h1 style="margin:0">Hi, I'm Krish 👋</h1>
-      <p style="margin:6px 0 0 0"><i>"I break things to see how they work. Then I rewrite them… or at least rage-quit trying. 💥"</i></p>
-      <p style="margin:8px 0 0 0">
-        <a href="https://krishsingh16-portfolio.vercel.app/">
-          <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-blue?style=for-the-badge&logo=vercel" alt="portfolio"/>
-        </a>
-        <a href="https://www.linkedin.com/in/krishsingh165/">
-          <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="linkedin"/>
-        </a>
-        <img src="https://img.shields.io/badge/Status-Open%20to%20Work-green?style=for-the-badge" alt="open-to-work"/>
-      </p>
-      <p style="margin:8px 0 0 0">
-        <img src="https://komarev.com/ghpvc/?username=krishsingh16&style=flat-square&color=blue" alt="profile views" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## 🚧 Current Status: ContextQA
-<table>
-  <tr>
-    <td valign="top" width="60%">
-- *Building a hybrid RAG system with a **Plant Metaphor** to visualize data lineage (yes, I make code smell like soil).* 🌿
-
-- **Goal:** Reduce LLM hallucinations by combining **Vector Search** (recall) with **Document Graphs** (precision).
-
-- **Stack:** Java (Spring Boot), PostgreSQL (pgvector), React.
-
-- **Status:** *Germinating* 🌱 — if it fails, blame the soil (aka my laptop).
-
-- **Meme Check:** Loyal to vectors, secretly eyeing graphs.
-    </td>
-    <td valign="top" align="center" width="40%">
-      <img src="https://cdn-useast1.kapwing.com/static/templates/confused-math-lady-meme-maker-TVtw6-LM49LSMFgm-full.jpg" width="110" alt="confused-math-lady"/><br/>
-      <small><i>Reciprocal Rank Fusion: send coffee ☕</i></small>
-    </td>
-  </tr>
-</table>
+<h1 align="center">Krish Singh</h1>
+<p align="center">
+  <small>
+    Systems · Backend · Containers · Retrieval Systems
+  </small>
+</p>
 
 <p align="center">
-  <img src="https://media.wired.com/photos/59a459d3b345f64511c5e3d4/191:100/w_1280,c_limit/MemeLoveTriangle_297886754.jpg" width="220" alt="meme-love-triangle"/>
+  <img src="https://komarev.com/ghpvc/?username=krishsingh16&style=flat-square&color=6aa84f" />
 </p>
 
 ---
 
-## 🚀 Recently Completed: J-Container
-> *A rootless container runtime built from scratch in C & Java — because Docker felt too mainstream.*
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
 
-| ⚡ Benchmark | **J-Container** | Docker | Podman |
-|-------------|-----------------|--------|--------|
-| **Startup Time** | **138 ms** 🚀 | ~754 ms | ~1.01 s |
-| **Architecture** | Java + C (Native) | Go (Client-Server) | Go (Daemonless) |
+## About
 
-- **The Flex:** ~5× faster startup by skipping OCI overhead and talking to Linux namespaces.
-- **Tech:** C, Java, Linux kernel APIs.
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="90"/>
 
-<table>
-  <tr>
-    <td valign="top" width="70%">
-      <p style="margin:0"><b>Meme Check:</b> Everything was on fire — but it ran.</p>
-    </td>
-    <td valign="top" align="center" width="30%">
-      <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="110" alt="this-is-fine"/>
-    </td>
-  </tr>
-</table>
+I’m a backend and systems-leaning engineer who enjoys building things **close to the metal** and then questioning whether the abstractions were worth it.
+
+Most of my work lives at the intersection of:
+- distributed systems  
+- containers & Linux internals  
+- retrieval-augmented generation (RAG)  
+- Java done *properly*, not ceremonially  
+
+I tend to learn by breaking things, reading source code, and rebuilding them until the mental model sticks.
 
 ---
 
-## 💼 Work Experience (Emotionally)
-<table>
-  <tr>
-    <td valign="top" width="70%">
-- **Current Role:** *Full-Time Open Source Engineer* — *(Translation: unemployed but dangerously productive)*
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
 
-- **Goal:** Build production-grade systems until a company notices and throws money at me.
+## Current Focus — ContextQA
 
-- **Meme Check:** “Unemployed devs build the best stuff.”
-    </td>
-    <td valign="top" align="center" width="30%">
-      <img src="https://a.pinatafarm.com/620x500/41dca8f897/spongebob-waiting.jpg" width="110" alt="spongebob-waiting"/><br/>
-      <small><i>Open to offers!</i></small>
-    </td>
-  </tr>
-</table>
+<img align="right" src="https://cdn-useast1.kapwing.com/static/templates/confused-math-lady-meme-maker-TVtw6-LM49LSMFgm-full.jpg" width="120"/>
+
+A hybrid **RAG system** designed to make LLM outputs *traceable*, not magical.
+
+The core idea is a **plant metaphor** to visualize data lineage:
+documents → chunks → embeddings → answers.
+
+Not because it’s cute — because most RAG systems are black boxes, and debugging hallucinations without observability is pointless.
+
+**Highlights**
+- Vector search for recall  
+- Document graphs for precision  
+- Explicit lineage from source → answer  
+
+**Stack**
+- Java (Spring Boot)
+- PostgreSQL + pgvector
+- React
+
+Status: *actively growing* 🌱  
+If it dies, I’ll know exactly **why**.
 
 ---
 
-## 🎓 Education
-<table>
-  <tr>
-    <td valign="top" width="70%">
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
+
+## Recently Built — J-Container
+
+<img align="right" src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="120"/>
+
+A **rootless container runtime** built from scratch in **C + Java**.
+
+This started as a learning exercise and ended up being faster than I expected.
+
+| Metric | J-Container | Docker |
+|------|-----------|--------|
+| Startup Time | **~138 ms** | ~750 ms |
+| Architecture | Java + native C | Go (client/daemon) |
+
+Why it’s fast:
+- minimal OCI overhead  
+- direct use of Linux namespaces  
+- fewer abstractions between intent and syscall  
+
+This wasn’t about “beating Docker”.  
+It was about understanding **why containers work at all**.
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
+
+## Work Status
+
+<img align="right" src="https://a.pinatafarm.com/620x500/41dca8f897/spongebob-waiting.jpg" width="120"/>
+
+Currently independent.
+
+Which means:
+- open-source contributions  
+- deep personal projects  
+- building things I’d actually want to maintain in production  
+
+I’m open to backend / systems roles where:
+- correctness matters  
+- abstractions are questioned  
+- “because the framework says so” is not an argument  
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
+
+## Education
+
+<img align="right" src="https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif" width="120"/>
+
 **M.Sc. Computer Science**  
-*Osmania University (2022 – 2024)*
+Osmania University (2022–2024)
 
-- **GPA:** 7.03  
-- **Reality:** Learned more from kernel panics than lectures.
-- **Meme Check:** Syllabus lagged behind curiosity.
-    </td>
-    <td valign="top" align="center" width="30%">
-      <img src="https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif" width="110" alt="expanding-brain"/><br/>
-      <small><i>From basics → containers for fun</i></small>
-    </td>
-  </tr>
-</table>
+Formal education gave me structure.  
+Most of the real learning came from:
+- kernel panics  
+- broken builds  
+- reading code that was never meant to be read  
 
 ---
 
-## 🛠️ The Arsenal
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,c,spring,postgres,linux,docker,git,vim,python,react&perline=8" alt="skills" />
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
+
+## Tools I Actually Use
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,c,spring,postgres,linux,docker,git,vim,python,react&perline=8"/>
 </p>
 
 - **Languages:** Java, C, Python  
-- **Backend:** Spring Boot, Hibernate, REST APIs  
-- **Systems:** Linux internals, containers, GCC
+- **Backend:** Spring Boot, Hibernate, REST  
+- **Systems:** Linux internals, containers, GCC  
+- **Editor:** Vim (voluntarily)
 
 ---
 
-## 🧠 My Philosophy
-<table>
-  <tr>
-    <td valign="top" width="70%">
+<img src="https://user-images.githubusercontent.com/74038190/212897744-8c0b2f4c-38f6-4b2b-bc1f-4a9e5f7c9b7a.gif" height="2" width="100%"/>
+
+## Philosophy
+
 ```java
-public class Engineer {
-    public void dailyRoutine() {
-        while (alive) {
-            try {
-                buildCoolStuff();
-            } catch (Exception e) {
-                blameLibrary();
-                stackOverflowSearch();
-            } finally {
-                gitCommit("-m \"fix typo\"");
-            }
-        }
-    }
+while (curiosity > comfort) {
+    breakThings();
+    understandWhy();
+    rebuild(cleaner);
 }
-````
-
 ```
-</td>
-<td valign="top" align="center" width="30%">
-  <img src="https://i.redd.it/yp04p2utore81.gif" width="110" alt="code-compiles-first-try"/><br/>
-  <small><i>10% code, 90% debugging</i></small>
-</td>
-```
+Abstractions are useful.
+Understanding what they hide is mandatory.
 
-  </tr>
-</table>
-
----
-
-<div align="center">
-  <i>Thanks for scrolling. If you're hiring — hi. Otherwise, may your code compile on the first try 🚀</i>
-</div>
-
+<p align="center"> <small> Portfolio: https://krishsingh16-portfolio.vercel.app <br/> If you’re hiring and this resonates, we’ll probably get along. </small> </p>
