@@ -17,8 +17,8 @@
 > *Working on a hybrid RAG system that uses a "Plant Metaphor" to visualize data lineage.*
 
 <div align="right">
-<img src="https://github.com/user-attachments/assets/d6dd946d-f626-48c3-b424-3bf088e60517" 
-     alt="beetlejuice-just-hanging-around" 
+<img src="![cat-holding-head-cat](https://github.com/user-attachments/assets/a4e3ceb9-f3f8-4bf1-88cc-5fa0f159193f)
+"
      width="300" 
      height="200">
 </div>
