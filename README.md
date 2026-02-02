@@ -30,11 +30,10 @@
 
 ### 🚀 **Recently Completed: J-Container**
 > *A rootless container runtime built from scratch in C & Java.*
-
-| ⚡ Benchmark | **J-Container** | Docker |
-| :--- | :--- | :--- |
-| **Startup Time** | **149ms** 🚀 | ~778ms |
-| **Memory (RSS)** | **44.7 MB** | ~150 MB |
+| ⚡ Benchmark | **J-Container** | Docker | Podman |
+| :--- | :--- | :--- | :--- |
+| **Startup Time** | **138ms** 🚀 | ~754ms | ~1.01s |
+| **Architecture** | **Java + C (Native)** | Go (Client-Server) | Go (Daemonless) |
 
 * [cite_start]**The Flex:** I beat Docker's startup time by 5x by stripping away OCI overhead and talking directly to Linux Namespaces (`CLONE_NEWUSER`)[cite: 18, 19].
 * [cite_start]**Tech:** C (Syscalls), Java (Orchestrator), Linux Kernel[cite: 18].
@@ -91,52 +90,4 @@ public class Engineer {
 }
 ```
 
-### 🚀 **Featured Project: J-Container**
-> *Building a rootless container runtime from scratch because Docker was too slow.*
 
-<div align="center">
-  <img src="demo.gif" alt="J-Container Demo" width="100%" />
-</div>
-
-| ⚡ Benchmark | **J-Container** | Docker | Podman |
-| :--- | :--- | :--- | :--- |
-| **Startup Time** | **138ms** 🚀 | ~754ms | ~1.01s |
-| **Architecture** | **Java + C (Native)** | Go (Client-Server) | Go (Daemonless) |
-
-*A hybrid runtime using **Linux Namespaces** (`CLONE_NEWUSER`) and **Java** orchestration to prove isolation is cheap.*
-
----
-
-### 🛠️ **The Arsenal**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,c,linux,docker,bash,git,vscode,vim&perline=8" />
-</p>
-
----
-
-### 📊 **Stats & Trophies**
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=krish561&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krish561&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph" />
-</div>
-
-<br/>
-
-
----
-
-### 🧠 **My Philosophy**
-```c
-while (alive) {
-    code();
-    break_things();
-    coffee++;
-    
-    if (bug_fixed) {
-        // It wasn't me, it was the compiler
-        celebrate();
-    } else {
-        // It works on my machine
-        blame_library();
-    }
-}
