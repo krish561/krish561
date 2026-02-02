@@ -1,15 +1,3 @@
-Got it — thanks for the blunt honesty. I tightened the tone, added tasteful “colors” via badges, and reflowed every meme/GIF so they’re small and sit neatly beside the text using simple, GitHub-safe tables (no external CSS). This is copy-paste ready.
-
-Changes you’ll see:
-
-* Small GIFs/memes (80–120px) placed beside the section they react to via two-column tables (renders consistently on GitHub).
-* Colorful badges (shields.io) to add visual hierarchy without CSS.
-* Cleaner spacing and preserved your voice.
-
-Paste the markdown below into your README (it’s based on your edited version):
-
-````md
-<!-- Profile README for krishsingh16 -->
 <div align="center">
 
 <table>
@@ -179,12 +167,3 @@ public class Engineer {
   <i>Thanks for scrolling. If you're hiring — hi. Otherwise, may your code compile on the first try 🚀</i>
 </div>
 
----
-
-If you want, I can:
-
-* Replace any of the GIFs with smaller static PNGs to avoid motion overload.
-* Produce a **recruiter-friendly** variant with fewer memes and stronger emphasis on impact metrics.
-* Or push a version that preserves full meme chaos but uses collapsible details (`<details>`) to hide large images.
-
-Which of those should I do next? (I already shrank and aligned everything — so you won’t get surprise giant memes.)
