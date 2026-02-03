@@ -74,7 +74,7 @@
   <tr>
     <td width="65%">
       <h3>🚀 The Flex: J-Container</h3>
-      <blockquote><i>A rootless container runtime built from scratch in C & Java[cite: 18].</i></blockquote>
+      <blockquote><i>A rootless container runtime built from scratch in C & Java.</i></blockquote>
       <br />
       <table width="100%">
         <tr>
