@@ -46,8 +46,6 @@
 </tr>
 </table>
 
----
-
 <table>
   <tr>
     <td width="35%" align="center">
@@ -67,10 +65,8 @@
     </td>
   </tr>
 </table>
-
 <br />
-
-<table>
+<!-- <table>
   <tr>
     <td width="65%">
       <h3>🚀 The Flex: J-Container</h3>
@@ -108,15 +104,10 @@
       <i>138ms Startup Speed</i>
     </td>
   </tr>
-</table>
-
----
+</table> -->
 
 <table>
   <tr>
-    <td width="35%" align="center">
-      <img src="https://media1.tenor.com/m/FpHGaEhundIAAAAC/steven-he-smells-like.gif" width="100%" alt="Unemployed Final Boss" />
-    </td>
     <td width="65%">
       <h3>💼 Work Experience</h3>
       <ul>
@@ -128,6 +119,9 @@
           <b>Goal:</b> Building production-grade distributed systems until someone pays me to do it.
         </li>
       </ul>
+    </td>
+        <td width="35%" align="center">
+      <img src="https://media1.tenor.com/m/FpHGaEhundIAAAAC/steven-he-smells-like.gif" width="100%" alt="Unemployed Final Boss" />
     </td>
   </tr>
 </table>
@@ -145,8 +139,8 @@
 **Backend:** Spring Boot, Hibernate, REST APIs
 **Systems:** Linux Internals, Docker, GCC
 
----
-
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+<!--
 ### 🧠 **My Philosophy**
 ```java
 public class Engineer {
@@ -163,4 +157,5 @@ public class Engineer {
     }
 }
 ```
+-->
 <div align="center"> <br /> <i>Industrial confusion & inconvenience engineering.</i> </div>
