@@ -2,10 +2,10 @@
 
 <h1><b>Hi there, I'm </b><a href="https://github.com/krish561">Krish</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"></h1>
 
-**Fullstack Dev • Java Dev • Spring**
+**Wanna Be Fullstack Dev • Java Dev • Spring**
 <p>
   <small>
-    <i>- Industrial confusion & inconvenience engineering 🛠️<br>
+    <i>- Still Learning How to code 🛠️<br>
     - Force push and pray （；￢＿￢）</i>
   </small>
 </p>
