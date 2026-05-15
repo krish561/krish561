@@ -71,51 +71,6 @@
 
 <table>
   <tr>
-    <td width="65%" valign="top">
-      <h3>🖥️ Lumin</h3>
-
-      <blockquote>
-        <i>
-          A terminal-first display control center for Hyprland/Wayland setups.
-        </i>
-      </blockquote>
-
-      <br />
-
-      <ul>
-        <li>
-          <b>Features:</b>
-          Brightness backends, DDC fallback logic, floating TUI overlays,
-          mouse-driven controls.
-        </li>
-
-        <li>
-          <b>Tech:</b>
-          Rust, Ratatui, Hyprland, Linux display tooling.
-        </li>
-
-        <li>
-          <b>Status:</b>
-          Work in progress 🙇‍♂️
-        </li>
-      </ul>
-    </td>
-
-    <td width="35%" align="center" valign="top">
-      <img
-        src="https://media.tenor.com/Lk4DqJ4U4wAAAAAC/discord-profile-theme-your-ur.gif"
-        width="100%"
-      />
-
-      <br />
-
-      <i>Wiremix-inspired TUI experimentation.</i>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <td width="65%">
       <h3>💼 Work Experience</h3>
       <ul>
@@ -138,14 +93,46 @@
 
 ---
 
-### 🛠️ **The Arsenal**
+
+## 🛠️ The Arsenal
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,c,spring,postgres,docker,linux,git,vim,react,nodejs&perline=10" />
+  <img
+    src="https://skillicons.dev/icons?i=java,rust,python,c,spring,postgres,docker,linux,git,vim,react&perline=11"
+  />
 </p>
 
-**Languages:** Java, C, Python
-**Backend:** Spring Boot, Hibernate, REST APIs
-**Systems:** Linux Internals, Docker, GCC
+### Languages
+- Java
+- Rust
+- Python
+- C
+
+### Backend
+- Spring Boot
+- REST APIs
+- PostgreSQL
+- Hibernate
+
+### Systems & Tooling
+- Linux
+- Docker
+- Hyprland
+- Terminal UI Development
+- Container Internals
+
+---
+
+## 📌 Current Interests
+
+- Backend architecture
+- Distributed systems
+- Linux internals
+- Wayland / Hyprland tooling
+- Rust ecosystem
+- Terminal-first UX
+- Retrieval systems / RAG
+
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
