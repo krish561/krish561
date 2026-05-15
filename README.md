@@ -66,58 +66,23 @@
     </td>
   </tr>
 </table>
+
 <br />
-<!-- <table>
-  <tr>
-    <td width="65%">
-      <h3>🚀 The Flex: J-Container</h3>
-      <blockquote><i>A rootless container runtime built from scratch in C & Java.</i></blockquote>
-      <br />
-      <table width="100%">
-        <tr>
-          <th>⚡ Benchmark</th>
-          <th>J-Container</th>
-          <th>Docker</th>
-          <th>Podman</th>
-        </tr>
-        <tr>
-          <td><b>Startup Time</b></td>
-          <td><b>138ms</b> 🚀</td>
-          <td>~754ms</td>
-          <td>~1.01s</td>
-        </tr>
-        <tr>
-          <td><b>Memory</b></td>
-          <td><b>44.7 MB</b></td>
-          <td>~150 MB</td>
-          <td>~41 MB</td>
-        </tr>
-      </table>
-      <br />
-      <ul>
-        <li><b>The Flex:</b> I beat Docker's startup time by 5x by stripping away OCI overhead and talking directly to Linux Namespaces (<code>CLONE_NEWUSER</code>).</li>
-        <li><b>Tech:</b> C (Syscalls), Java (Orchestrator), Linux Kernel.</li>
-      </ul>
-    </td>
-    <td width="35%" align="center">
-      <img src="https://media1.tenor.com/m/LYyLehc-SrEAAAAC/jack-black-i-am-steve.gif" width="100%"/>
-      <br />
-      <i>138ms Startup Speed</i>
-    </td>
-  </tr>
-</table> -->
 
 <table>
   <tr>
-      <td width="35%" align="center">
-      <img
-        src="https://media.tenor.com/Lk4DqJ4U4wAAAAAC/discord-profile-theme-your-ur.gif"
-        width="100%"
-      />  
-    </td>
-    <td width="65%">
-      <h3>A terminal-first display control center for Hyprland/Wayland setups.</h3>
-  <ul>
+    <td width="65%" valign="top">
+      <h3>🖥️ Lumin</h3>
+
+      <blockquote>
+        <i>
+          A terminal-first display control center for Hyprland/Wayland setups.
+        </i>
+      </blockquote>
+
+      <br />
+
+      <ul>
         <li>
           <b>Features:</b>
           Brightness backends, DDC fallback logic, floating TUI overlays,
@@ -125,18 +90,29 @@
         </li>
 
         <li>
-          <b>Tech:</b> Rust, Ratatui, Hyprland, Linux display tooling.
+          <b>Tech:</b>
+          Rust, Ratatui, Hyprland, Linux display tooling.
         </li>
 
         <li>
-          <b>Status:</b> Work in progress 🙇‍♂️
+          <b>Status:</b>
+          Work in progress 🙇‍♂️
         </li>
-      </ul>    
+      </ul>
+    </td>
+
+    <td width="35%" align="center" valign="top">
+      <img
+        src="https://media.tenor.com/Lk4DqJ4U4wAAAAAC/discord-profile-theme-your-ur.gif"
+        width="100%"
+      />
+
+      <br />
+
+      <i>Wiremix-inspired TUI experimentation.</i>
     </td>
   </tr>
 </table>
-
-<br/>
 
 <table>
   <tr>
@@ -144,7 +120,7 @@
       <h3>💼 Work Experience</h3>
       <ul>
         <li>
-          <b>Current Role:</b> <i>Full-Time Open Source Contributor</i><br>
+          <b>Current Role:</b> <i>Full-Time Open Source contributor, trying to be...</i><br>
           (A.K.A. Unemployed & Coding)
         </li>
         <li>
@@ -172,22 +148,5 @@
 **Systems:** Linux Internals, Docker, GCC
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-<!--
-### 🧠 **My Philosophy**
-```java
-public class Engineer {
-    public void dailyRoutine() {
-        while (alive) {
-            try {
-                forcePush();
-                pray();
-            } catch (Exception e) {
-                // It works on my machine
-                blame_library();
-            }
-        }
-    }
-}
-```
--->
+
 <div align="center"> <br /> <i>Industrial confusion & inconvenience engineering.</i> </div>
