@@ -2,12 +2,11 @@
 
 <h1><b>Hi there, I'm </b><a href="https://github.com/krish561">Krish</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"></h1>
 
-** Backend • Linux Enthusiast • Spring  • Systems Tooling Explorer **
+**Wanna Be Fullstack Dev • Java Dev • Spring**
 <p>
   <small>
     <i>- Still Learning How to code 🛠️<br>
-    - Force push and pray （；￢＿￢）<br>
-    - Building things, breaking things, and occasionally understanding why they broke</i>
+    - Force push and pray （；￢＿￢）</i>
   </small>
 </p>
 
@@ -66,7 +65,6 @@
     </td>
   </tr>
 </table>
-
 <br />
 
 <table>
@@ -75,7 +73,7 @@
       <h3>💼 Work Experience</h3>
       <ul>
         <li>
-          <b>Current Role:</b> <i>Full-Time Open Source contributor, trying to be...</i><br>
+          <b>Current Role:</b> <i>Full-Time Open Source Engineer</i><br>
           (A.K.A. Unemployed & Coding)
         </li>
         <li>
@@ -93,46 +91,14 @@
 
 ---
 
-
-## 🛠️ The Arsenal
-
+### 🛠️ **The Arsenal**
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=java,rust,python,c,spring,postgres,docker,linux,git,vim,react&perline=11"
-  />
+  <img src="https://skillicons.dev/icons?i=java,c,spring,postgres,docker,linux,git,vim,react,nodejs&perline=10" />
 </p>
 
-### Languages
-- Java
-- Rust
-- Python
-- C
-
-### Backend
-- Spring Boot
-- REST APIs
-- PostgreSQL
-- Hibernate
-
-### Systems & Tooling
-- Linux
-- Docker
-- Hyprland
-- Terminal UI Development
-- Container Internals
-
----
-
-## 📌 Current Interests
-
-- Backend architecture
-- Distributed systems
-- Linux internals
-- Wayland / Hyprland tooling
-- Rust ecosystem
-- Terminal-first UX
-- Retrieval systems / RAG
-
+**Languages:** Java, C, Python
+**Backend:** Spring Boot, Hibernate, REST APIs
+**Systems:** Linux Internals, Docker, GCC
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
